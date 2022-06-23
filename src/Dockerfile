@@ -5,6 +5,8 @@
 
 FROM centos:latest
 
+MAINTAINER palani
+
 
 ENV BUILDER_VERSION 1.0
 LABEL io.k8s.description="Base image for running a Java Spring Boot application" \
